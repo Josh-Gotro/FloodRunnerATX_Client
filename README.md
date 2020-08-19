@@ -1,8 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# FloodRunnerATX_api
 
-In the project directory, you can run:
+FloodRunnerATX_Client
+
+FloodRunnerATX is a live-updated resourse for looking at current water levels at flood gauges in the Austin, TX area using the USGS API.  
+
+- clone repository and cd into the newly created folder. 
+- Optional for a full experience: Clone and follow installation instructions for the Rails database at "https://github.com/Josh-Gotro/FloodRunnerATX_api"
+
+
 
 ### `yarn start`
 
@@ -12,10 +19,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
@@ -37,33 +40,19 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Third Party API's:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# live water gauge data
+- USGS water records
+https://waterservices.usgs.gov/rest/IV-Test-Tool.html
 
-### Code Splitting
+# maps data
+- Google Maps API
+https://developers.google.com/maps/documentation
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# weather information
+- DarkSky
+https://darksky.net/dev
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# FloodRunnerATX_client
+# FloodRunnerATX_Client
