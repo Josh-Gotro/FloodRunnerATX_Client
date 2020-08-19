@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# FloodRunnerATX_api
+# FloodRunnerATX_client
 
-FloodRunnerATX_Client
+FloodRunnerATX_client
 
 FloodRunnerATX is a live-updated resourse for looking at current water levels at flood gauges in the Austin, TX area using the USGS API.  
 
@@ -41,18 +41,18 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 
-## Third Party API's:
+# Third Party API's:
 
-# live water gauge data
+### live water gauge data
 - USGS water records
 https://waterservices.usgs.gov/rest/IV-Test-Tool.html
 
-# maps data
+### maps data
 - Google Maps API
 https://developers.google.com/maps/documentation
 
-# weather information
+### weather information
 - DarkSky
 https://darksky.net/dev
 
-# FloodRunnerATX_Client
+### FloodRunnerATX_client
